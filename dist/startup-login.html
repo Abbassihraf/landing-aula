@@ -14,118 +14,157 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/app.css">
     <link id="theme-sheet" rel="stylesheet" href="assets/css/core.css">
-
+    
 </head>
 
 <body class="is-theme-core">
     <div class="pageloader"></div>
-    <div class="infraloader is-active"></div>
+    <div class="infraloader is-active"></div>    
     <!-- Wrapper -->
     <div class="login-wrapper columns is-gapless" data-switcher-visible>
-        <!-- Image section (hidden on mobile) -->
-        <div class="column login-column is-8 is-hidden-mobile hero-banner">
-            <div class="hero login-hero is-fullheight is-app-grey">
-                <div class="hero-body">
-                    <div class="columns">
-                        <div class="column is-10 is-offset-1">
-                            <img class="has-light-shadow" src="assets/img/graphics/apps/app-1-core.png" data-base-url="assets/img/graphics/apps/app-1" data-extension=".png" alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div class="hero-footer">
-                    <p class="has-text-centered"></p>
-                </div>
+      <!-- Image section (hidden on mobile) -->
+      <div class="column login-column is-8 is-hidden-mobile hero-banner">
+        <div class="hero login-hero is-fullheight is-app-grey">
+          <div class="hero-body">
+            <div class="columns">
+              <div class="column is-10 is-offset-1">
+                <img
+                  class="has-light-shadow"
+                  src="assets/img/graphics/apps/app-1-core.png"
+                  data-base-url="assets/img/graphics/apps/app-1"
+                  data-extension=".png"
+                  alt=""
+                />
+              </div>
             </div>
+          </div>
+          <div class="hero-footer">
+            <p class="has-text-centered"></p>
+          </div>
         </div>
-
-        <!-- Form section -->
-        <div class="column is-4">
-            <div class="hero is-fullheight">
-                <div class="hero-heading">
-                    <div class="auth-logo">
-                        <a href="/"><img class="top-logo switcher-logo" src="assets/img/logos/logo/bulkit-core.svg" alt="" /></a>
-                    </div>
-                </div>
-                <div class="hero-body">
-                    <div class="container">
-                        <div class="columns">
-                            <div class="column is-12">
-                                <div class="auth-content">
-                                    <h2>Welcome Back.</h2>
-                                    <p>Please sign in to your account</p>
-                                    <a href="startup-signup.html">I do not have an account yet </a>
-                                </div>
-                                <div class="auth-form-wrapper">
-                                    <!-- Login Form -->
-                                    <form>
-                                        <div id="signin-form" class="login-form animated preFadeInLeft fadeInLeft">
-                                            <!-- Input -->
-                                            <div class="field pb-10">
-                                                <div class="control has-icons-right">
-                                                    <input class="input is-medium has-shadow" type="text" placeholder="Username" />
-                                                    <span class="icon is-medium is-right">
+      </div>
+    
+      <!-- Form section -->
+      <div class="column is-4">
+        <div class="hero is-fullheight">
+          <div class="hero-heading">
+            <div class="auth-logo">
+              <a href="/"
+                ><img
+                  class="top-logo switcher-logo"
+                  src="assets/img/logos/logo/bulkit-core.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="hero-body">
+            <div class="container">
+              <div class="columns">
+                <div class="column is-12">
+                  <div class="auth-content">
+                    <h2>Welcome Back.</h2>
+                    <p>Please sign in to your account</p>
+                    <a href="startup-signup.html">I do not have an account yet </a>
+                  </div>
+                  <div class="auth-form-wrapper">
+                    <!-- Login Form -->
+                    <form>
+                      <div
+                        id="signin-form"
+                        class="login-form animated preFadeInLeft fadeInLeft"
+                      >
+                        <!-- Input -->
+                        <div class="field pb-10">
+                          <div class="control has-icons-right">
+                            <input
+                              class="input is-medium has-shadow"
+                              type="text"
+                              placeholder="Username"
+                            />
+                            <span class="icon is-medium is-right">
                               <i class="sl sl-icon-user"></i>
                             </span>
-                                                </div>
-                                            </div>
-                                            <!-- Input -->
-                                            <div class="field pb-10">
-                                                <div class="control has-icons-right">
-                                                    <input class="input is-medium has-shadow" type="text" placeholder="Password" />
-                                                    <span class="icon is-medium is-right">
+                          </div>
+                        </div>
+                        <!-- Input -->
+                        <div class="field pb-10">
+                          <div class="control has-icons-right">
+                            <input
+                              class="input is-medium has-shadow"
+                              type="text"
+                              placeholder="Password"
+                            />
+                            <span class="icon is-medium is-right">
                               <i class="sl sl-icon-lock"></i>
                             </span>
-                                                </div>
-                                            </div>
-                                            <!-- Submit -->
-                                            <p class="control login">
-                                                <button class="button button-cta primary-btn btn-align-lg is-bold is-fullwidth rounded raised no-lh">
-                                                    Log in
-                                                </button>
-                                            </p>
-                                        </div>
-                                    </form>
-
-                                    <!-- Reset Form -->
-                                    <form>
-                                        <div id="recover-form" class="login-form animated preFadeInLeft fadeInLeft is-hidden">
-                                            <!-- Input -->
-                                            <div class="field">
-                                                <div class="control has-icons-right">
-                                                    <input class="input is-medium" type="text" placeholder="Email address" />
-                                                    <span class="icon is-medium is-right">
+                          </div>
+                        </div>
+                        <!-- Submit -->
+                        <p class="control login">
+                          <button
+                            class="button button-cta primary-btn btn-align-lg is-bold is-fullwidth rounded raised no-lh"
+                          >
+                            Log in
+                          </button>
+                        </p>
+                      </div>
+                    </form>
+    
+                    <!-- Reset Form -->
+                    <form>
+                      <div
+                        id="recover-form"
+                        class="login-form animated preFadeInLeft fadeInLeft is-hidden"
+                      >
+                        <!-- Input -->
+                        <div class="field">
+                          <div class="control has-icons-right">
+                            <input
+                              class="input is-medium"
+                              type="text"
+                              placeholder="Email address"
+                            />
+                            <span class="icon is-medium is-right">
                               <i class="sl sl-icon-paper-plane"></i>
                             </span>
-                                                </div>
-                                            </div>
-                                            <!-- Submit -->
-                                            <p class="control login">
-                                                <button class="button button-cta primary-btn btn-align-lg is-bold is-fullwidth rounded raised no-lh">
-                                                    Reset password
-                                                </button>
-                                            </p>
-                                        </div>
-                                    </form>
-
-                                    <!-- Toggles -->
-                                    <div id="recover" class="pt-10 pb-10 forgot-password animated preFadeInLeft fadeInLeft">
-                                        <p class="has-text-centered">
-                                            <a href="#">Forgot password ?</a>
-                                        </p>
-                                    </div>
-
-                                    <div id="back-to-login" class="pt-10 pb-10 forgot-password animated preFadeInLeft fadeInLeft is-hidden">
-                                        <p class="has-text-centered">
-                                            <a href="#">Back to Sign in</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                          </div>
                         </div>
+                        <!-- Submit -->
+                        <p class="control login">
+                          <button
+                            class="button button-cta primary-btn btn-align-lg is-bold is-fullwidth rounded raised no-lh"
+                          >
+                            Reset password
+                          </button>
+                        </p>
+                      </div>
+                    </form>
+    
+                    <!-- Toggles -->
+                    <div
+                      id="recover"
+                      class="pt-10 pb-10 forgot-password animated preFadeInLeft fadeInLeft"
+                    >
+                      <p class="has-text-centered">
+                        <a href="#">Forgot password ?</a>
+                      </p>
                     </div>
+    
+                    <div
+                      id="back-to-login"
+                      class="pt-10 pb-10 forgot-password animated preFadeInLeft fadeInLeft is-hidden"
+                    >
+                      <p class="has-text-centered">
+                        <a href="#">Back to Sign in</a>
+                      </p>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Side navigation -->
     <div class="side-navigation-menu">
@@ -139,7 +178,7 @@
                 <li class="category-link" data-navigation-menu="components"><i class="sl sl-icon-grid"></i></li>
             </ul>
             <!-- Menu -->
-
+    
             <ul class="author">
                 <li>
                     <!-- Theme author -->
@@ -150,7 +189,7 @@
             </ul>
         </div>
         <!-- /Categories menu -->
-
+    
         <!-- Navigation menu -->
         <div id="demo-pages" class="navigation-menu-wrapper animated preFadeInRight fadeInRight">
             <!-- Navigation Header -->
@@ -164,7 +203,7 @@
                                 <i class="icon-line-center"></i>
                                 <i class="icon-line-bottom"></i>
                             </span>
-                    </span>
+                        </span>
                     </span>
                 </a>
             </div>
@@ -326,7 +365,7 @@
                                 <i class="icon-line-center"></i>
                                 <i class="icon-line-bottom"></i>
                             </span>
-                    </span>
+                        </span>
                     </span>
                 </a>
             </div>
@@ -429,7 +468,7 @@
                                 <i class="icon-line-center"></i>
                                 <i class="icon-line-bottom"></i>
                             </span>
-                    </span>
+                        </span>
                     </span>
                 </a>
             </div>
@@ -522,12 +561,9 @@
                 </li>
             </ul>
         </div>
-        <!-- /Navigation menu -->
-    </div>
-    <!-- /Side navigation -->
-    <!-- Back To Top Button -->
-    <div id="backtotop"><a href="#"></a></div>
-    <div id="style-switcher" class="style-switcher visible">
+        <!-- /Navigation menu --></div>
+    <!-- /Side navigation -->    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>    <div id="style-switcher" class="style-switcher visible">
         <div class="switcher-close">
             <i class="material-icons">close</i>
         </div>
@@ -551,7 +587,7 @@
             <input type="radio" id="green" name="theme_selector">
             <div class="style-dot-inner is-green"></div>
         </div>
-
+        
         <!--Main Theme-->
         <div class="style-dot">
             <input type="radio" id="azur" name="theme_selector">
