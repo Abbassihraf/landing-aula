@@ -350,6 +350,39 @@ TABLE OF CONTENTS
     }
 }
 
+.button {
+    &.white-btn {
+        outline: none;
+        border-color: #fff;
+        background-color: #fff;
+        color: $primary;
+        transition: all 0.5s;
+
+        &:hover {
+            color: $primary;
+        }
+
+        &.raised:hover {
+            box-shadow: $primary-box-shadow;
+        }
+
+        &.btn-outlined {
+            border-color: #fff;
+            color: #fff;
+            background-color: transparent;
+
+            &:hover {
+                color: $primary;
+                background-color: #fff;
+            }
+        }
+
+        &:focus {
+            border-color: #fff;
+        }
+    }
+}
+
 /* ==========================================================================
 6. Success button
 ========================================================================== */

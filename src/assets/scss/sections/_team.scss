@@ -106,7 +106,8 @@ TABLE OF CONTENTS
     border: 1px solid $fade-grey;
 
     img {
-        height: 50px;
+        height: 80px;
+        border-radius: 100px;
         display: block;
         margin: 10px auto;
     }
@@ -119,7 +120,7 @@ TABLE OF CONTENTS
     .position {
         font-size: .9rem;
         font-weight: 600;
-        color: $secondary;
+        color: $accent;
     }
 
     .social {

@@ -24,19 +24,23 @@ body {
       padding: 800px 30px 30px 30px;
 
       &.is-first {
-        background-image: url(../img/graphics/compositions/phone-slide-1-core.png);
+        background-image: url(../img/graphics/compositions/plataforma-1.png);
       }
 
       &.is-second {
-        background-image: url(../img/graphics/compositions/phone-slide-2-core.png);
+        background-image: url(../img/graphics/compositions/plataforma-2.png);
       }
 
       &.is-third {
-        background-image: url(../img/graphics/compositions/phone-slide-3-core.png);
+        background-image: url(../img/graphics/compositions/plataforma-3.png);
       }
 
       &.is-fourth {
-        background-image: url(../img/graphics/compositions/phone-slide-4-core.png);
+        background-image: url(../img/graphics/compositions/plataforma-4.png);
+      }
+
+      &.is-fifth {
+        background-image: url(../img/graphics/compositions/plataforma-5.png);
       }
     }
   }

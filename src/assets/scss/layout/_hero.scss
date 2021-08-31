@@ -348,6 +348,13 @@ TABLE OF CONTENTS
         }
     }
 
+    .logo {
+      &.hero-logo {
+        width: 50%;
+        margin-bottom: 10px;
+      }  
+    }
+
     .title {
         &.main-title {
             color: $white;
